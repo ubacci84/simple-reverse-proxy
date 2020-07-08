@@ -16,7 +16,7 @@ spec:
         service: reverse-proxy
     spec:
       containers:
-      - image: ucast84/reverse-proxy
+      - image: ucast84/simple-reverse-proxy
         name: reverse-proxy
         imagePullPolicy: Always          
         resources:
